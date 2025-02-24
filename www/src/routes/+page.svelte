@@ -18,4 +18,3 @@
 		{greeter.greet()}
 	</p>
 </div>
-<!--<button on:click={() => lib.greet()}>Greet</button>-->
