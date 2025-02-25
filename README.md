@@ -30,11 +30,10 @@ With the repo cloned, `cd` in to the folder you just created and run the followi
 
 ```
 deno task wasmbuild
-(cd www && deno install --allow-scripts=npm:@swc/core@1.10.18)
+(cd www && deno install)
 ```
 
-The first deno task builds the WASM binary and corresponding js files for our front end, we then change directory into the `www` folder where our SvelteKit project lives and install dependencies. Note that we allow post-install scripts from `@swc-core` to run. This may not be strictly necessary but it avoids an ugly warning and it's better to cover all our bases.
-
+The first deno task builds the WASM binary and corresponding js files for our front end, we then change directory into the `www` folder where our SvelteKit project lives and install dependencies.
 Your root folder tree should now look like this (I haven't listed every file or folder for brevity):
 
 ```
