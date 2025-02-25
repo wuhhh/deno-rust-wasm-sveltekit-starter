@@ -88,6 +88,10 @@ Since we are only using `deno` to make local development a bit (a lot?!) nicer, 
 
 Refer to the [SvelteKit docs](https://svelte.dev/docs/kit/building-your-app) on building to learn how to take your bundled and optimised files to production.
 
+## Acknowledgements
+
+David Sherret's post on deno.com, [wasmbuild - Using Rust in Deno and Web Apps](https://deno.com/blog/wasmbuild), provided the basis for this starter. Also check out the [vite-plugin-wasm](https://github.com/Menci/vite-plugin-wasm) plugin.
+
 ## Further Reading
 
 - Deno: [Deno documentation](https://docs.deno.com/)
